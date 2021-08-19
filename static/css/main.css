@@ -1,0 +1,52 @@
+
+input {
+    width: 40%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-gradient {
+    background-image: linear-gradient( #e7b285, #fd7e14);
+}
+
+.btn {
+    background-color: #d4d6d8; /* Gray */
+    text-align: center;
+    width: 40%;
+    margin: auto;  
+    color: black
+}
+
+h2 {
+    width: 100%;
+    text-align:center;
+}
+
+h5 {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  h5:before,
+  h5:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 12%;
+  }
+
+h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  h5:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
